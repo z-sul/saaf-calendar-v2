@@ -37,3 +37,4 @@
 ورابط تحميل التقويم:
 
 `https://saaf-calendar-v2.vercel.app/api/calendar`
+Updated deployment
