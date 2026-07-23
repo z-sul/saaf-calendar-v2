@@ -80,8 +80,8 @@ export default function HomePage() {
               textAlign: "center",
             }}
           >
-            يضم هذا البرنامج البطولات والمعسكرات والدورات والاختبارات والفعاليات
-            الداخلية للاتحاد السعودي للسهام للموسم الرياضي{" "}
+            يضم هذا البرنامج البطولات والمعسكرات والدورات والاختبارات الداخلية
+            للاتحاد السعودي للسهام للموسم الرياضي{" "}
             <strong>2026 / 2027</strong>، ويتم تحديثه بشكل دوري وفق آخر
             المستجدات.
           </p>
@@ -117,48 +117,37 @@ export default function HomePage() {
             boxShadow: "0 14px 36px rgba(0,0,0,.05)",
           }}
         >
-          <div style={{ textAlign: "center", marginBottom: "28px" }}>
-            <div
-              style={{
-                fontSize: "46px",
-                fontWeight: 800,
-                color: "#176b3a",
-              }}
-            >
-              {internalEvents.length}</div>
+          <div className="stats-grid">
+            <div className="stat-card">
+              <span className="stat-icon">🏆</span>
+              <strong>13</strong>
+              <span>بطولات</span>
+            </div>
 
-       <div className="stats-grid">
-  <div className="stat-card">
-    <span className="stat-icon">🏆</span>
-    <strong>13</strong>
-    <span>بطولة</span>
-  </div>
+            <div className="stat-card">
+              <span className="stat-icon">🏕️</span>
+              <strong>4</strong>
+              <span>معسكرات</span>
+            </div>
 
-  <div className="stat-card">
-    <span className="stat-icon">🏕️</span>
-    <strong>4</strong>
-    <span>معسكرات</span>
-  </div>
+            <div className="stat-card">
+              <span className="stat-icon">👨‍🏫</span>
+              <strong>3</strong>
+              <span>دورات</span>
+            </div>
 
-  <div className="stat-card">
-    <span className="stat-icon">👨‍🏫</span>
-    <strong>3</strong>
-    <span>دورات</span>
-  </div>
-
-  <div className="stat-card">
-    <span className="stat-icon">🎯</span>
-    <strong>2</strong>
-    <span>تجارب واختبارات</span>
-  </div>
-</div>
-                </div>
+            <div className="stat-card">
+              <span className="stat-icon">🎯</span>
+              <strong>2</strong>
+              <span>تجارب واختبارات</span>
+            </div>
+          </div>
 
           <h2
             style={{
               textAlign: "center",
               fontSize: "27px",
-              margin: "0 0 22px",
+              margin: "30px 0 22px",
             }}
           >
             البرنامج الزمني الداخلي
