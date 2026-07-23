@@ -125,7 +125,8 @@ export default function HomePage() {
                 color: "#176b3a",
               }}
             >
-              {internalEvents.length}
+              {internalEvents.length}</div>
+
        <div className="stats-grid">
   <div className="stat-card">
     <span className="stat-icon">🏆</span>
@@ -151,6 +152,7 @@ export default function HomePage() {
     <span>تجارب واختبارات</span>
   </div>
 </div>
+                </div>
 
           <h2
             style={{
