@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Cocon Next Arabic";
+  src: url("/fonts/CoconNextArabic-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Cocon Next Arabic", Arial, sans-serif;
+  color: #12251a;
+  background: #f3f7f4;
+}
+
+a,
+button {
+  font-family: inherit;
+}
