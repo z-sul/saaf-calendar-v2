@@ -126,11 +126,31 @@ export default function HomePage() {
               }}
             >
               {internalEvents.length}
-            </div>
-            <div style={{ fontSize: "18px", fontWeight: 700 }}>
-              فعالية داخلية
-            </div>
-          </div>
+       <div className="stats-grid">
+  <div className="stat-card">
+    <span className="stat-icon">🏆</span>
+    <strong>13</strong>
+    <span>بطولة</span>
+  </div>
+
+  <div className="stat-card">
+    <span className="stat-icon">🏕️</span>
+    <strong>4</strong>
+    <span>معسكرات</span>
+  </div>
+
+  <div className="stat-card">
+    <span className="stat-icon">👨‍🏫</span>
+    <strong>3</strong>
+    <span>دورات</span>
+  </div>
+
+  <div className="stat-card">
+    <span className="stat-icon">🎯</span>
+    <strong>2</strong>
+    <span>تجارب واختبارات</span>
+  </div>
+</div>
 
           <h2
             style={{
