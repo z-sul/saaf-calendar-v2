@@ -24,3 +24,52 @@ a,
 button {
   font-family: inherit;
 }
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin: 30px 0;
+}
+
+.stat-card {
+  background: #ffffff;
+  border: 1px solid #e4ece7;
+  border-radius: 20px;
+  padding: 24px 15px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 90, 55, 0.08);
+}
+
+.stat-icon {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.stat-card strong {
+  display: block;
+  font-size: 34px;
+  color: #08783f;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.stat-card span:last-child {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: #14281f;
+}
+
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
