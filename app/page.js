@@ -119,25 +119,25 @@ export default function HomePage() {
         >
           <div className="stats-grid">
             <div className="stat-card">
-              <span className="stat-icon">🏆</span>
+              <span className="stat-icon"></span>
               <strong>13</strong>
               <span>بطولات</span>
             </div>
 
             <div className="stat-card">
-              <span className="stat-icon">🏕️</span>
+              <span className="stat-icon"></span>
               <strong>4</strong>
               <span>معسكرات</span>
             </div>
 
             <div className="stat-card">
-              <span className="stat-icon">👨‍🏫</span>
+              <span className="stat-icon"></span>
               <strong>3</strong>
               <span>دورات</span>
             </div>
 
             <div className="stat-card">
-              <span className="stat-icon">🎯</span>
+              <span className="stat-icon"></span>
               <strong>2</strong>
               <span>تجارب واختبارات</span>
             </div>
