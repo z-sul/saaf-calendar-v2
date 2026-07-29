@@ -86,24 +86,23 @@ export default function HomePage() {
             المستجدات.
           </p>
 
-          <a
-  href="/api/calendar"
+         <a
+  href="webcal://saaf-calendar-v2.vercel.app/api/calendar"
   style={{
     display: "inline-flex",
     alignItems: "center",
     justifyContent: "center",
-    marginTop: "28px",
-    padding: "16px 32px",
+    padding: "16px 28px",
     borderRadius: "14px",
     background: "#176b3a",
     color: "#ffffff",
     textDecoration: "none",
-    fontSize: "18px",
+    fontSize: "17px",
     fontWeight: 800,
     boxShadow: "0 12px 28px rgba(23,107,58,.25)",
   }}
 >
-  📅 الاشتراك في التقويم
+  الاشتراك في التقويم
 </a>
         </header>
 
