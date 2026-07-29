@@ -87,8 +87,8 @@ export default function HomePage() {
           </p>
 
           <a
-            href="/api/calendar"
-            style={{
+href="webcal://saaf-calendar-v2.vercel.app/api/calendar"
+  style={{
               display: "inline-flex",
               alignItems: "center",
               justifyContent: "center",
@@ -103,7 +103,7 @@ export default function HomePage() {
               boxShadow: "0 12px 28px rgba(23,107,58,.25)",
             }}
           >
-            ↓ تحميل البرنامج الزمني الداخلي
+            ↓ الاشتراك في التقويم
           </a>
         </header>
 
