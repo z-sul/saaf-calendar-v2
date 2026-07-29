@@ -2,7 +2,7 @@ export const internalEvents = [
   {
     id: "internal-001",
     title: "المعسكر البارالمبي للسهام",
-    startDate: "2026-07-21",
+    startDate: "2026-07-23",
     endDate: "2026-07-25",
     location: "المدينة المنورة",
     type: "معسكر",
