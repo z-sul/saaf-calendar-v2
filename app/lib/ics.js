@@ -88,10 +88,7 @@ export function calendarResponse(calendar) {
     status: 200,
     headers: {
       "Content-Type": "text/calendar; charset=utf-8",
-      "Content-Disposition":
-        'attachment; filename="saaf-internal-program-2026-2027.ics"',
-      "Cache-Control": "no-cache, no-store, must-revalidate",
-      "Access-Control-Allow-Origin": "*",
+      "Cache-Control": "public, max-age=0, s-maxage=300",
     },
   });
 }
